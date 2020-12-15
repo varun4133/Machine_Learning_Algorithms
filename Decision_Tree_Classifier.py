@@ -109,6 +109,7 @@ plt.scatter(xTrSpiral[:,0], xTrSpiral[:,1],30,c=yTrSpiral)
 plt.colorbar()
 
 def visclassifier(fun,xTr,yTr,w=None,b=0):
+    #Made by Cornell to visualize my classifier
     yTr = np.array(yTr).flatten()
     
 
